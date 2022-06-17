@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    background-image: url(bg-intro-desktop\ \(1\).png);
+font-size: 16px;
+background-color: hsl(0, 100%, 74%);
+font-family: "Poppins", sans-serif;
+}
+@media screen and ( max-width: 1440px )and(min-width: 375px) {
+  body{flex-direction : column;}
+}
+#form{
+    float: right;
+    padding:20px 30px ;
+    background-color:white ;
+    height: 100%;
+    border-radius: 9px;
+    align-items: center;
+    margin: auto;
+    justify-content:center;
+}
+#side {
+    float: left;  
+    width:50%;
+    padding: 100px 45px;
+    margin-left: 30px;
+    margin-bottom: 22px;
+}
+#head{
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight:500;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+ ;
+}
+.div{width : 50%;
+    margin-right: 80px;
+    box-sizing: border-box;
+    margin-bottom: 17px;
+}
+
+#sidehead {
+    font-weight: 700;
+    color: white;
+    font-size:30px;
+    padding-left:20px ;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+.divclass{
+       margin-bottom: 16px;
+}
+#par{color: white;
+margin-top: 10px;
+font-size: 11px;
+padding-right: 20px;
+padding-left: 20px;
+
+}
+input[type=text] , input[type=password], input[type=email] {
+    width: 400px;
+    align-items: center;
+    padding:10px 8px ;
+    border-radius: 5px;
+    border-right-color: rgb(165, 164, 164);
+    border-bottom-color:rgb(165, 164, 164);
+    border-top-color: rgb(165, 164, 164);
+    border-left-color: rgb(165, 164, 164) ;
+    border-style: groove;
+}
+button{
+    width: 400px;
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    color:white;
+    font-weight: 500;
+    padding: 10px 8px ;
+}
+.bold , a {
+    color:hsl(0, 100%, 74%);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+}
+#para{
+    color: hsl(246, 10%, 26%);
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+}
+.sideup{
+    color:hsl(245, 5%, 60%) ;
+    font-weight:500;
+}
